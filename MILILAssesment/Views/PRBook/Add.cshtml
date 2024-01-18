@@ -1,0 +1,118 @@
+﻿@model MILILAssesment.Models.PRBookInfoViewModel
+
+<h1> Add PRBook </h1>
+
+<form asp-action="Add">
+    <div class="form-group">
+        <label asp-for="ReqNo">Request Number</label>
+        <input asp-for="ReqNo" class="form-control" />
+        <span asp-validation-for="ReqNo" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ReqDate">Request Date</label>
+        <input asp-for="ReqDate" type="datetime-local" class="form-control" />
+        <span asp-validation-for="ReqDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ReqBy">Requested By</label>
+        <input asp-for="ReqBy" class="form-control" />
+        <span asp-validation-for="ReqBy" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ReqQty">Request Quantity</label>
+        <input asp-for="ReqQty" class="form-control" />
+        <span asp-validation-for="ReqQty" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="IssuedQty">Issued Quantity</label>
+        <input asp-for="IssuedQty" class="form-control" />
+        <span asp-validation-for="IssuedQty" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="OfficeCode">Office Code</label>
+        <input asp-for="OfficeCode" class="form-control" />
+        <span asp-validation-for="OfficeCode" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="IssuedDate">Issued Date</label>
+        <input asp-for="IssuedDate" type="datetime-local" class="form-control" />
+        <span asp-validation-for="IssuedDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Status">Status</label>
+        <input asp-for="Status" class="form-control" />
+        <span asp-validation-for="Status" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="UserName">User Name</label>
+        <input asp-for="UserName" class="form-control" />
+        <span asp-validation-for="UserName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="EntryDate">Entry Date</label>
+        <input asp-for="EntryDate" type="datetime-local" class="form-control" />
+        <span asp-validation-for="EntryDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ReqbyTierCode">Req by Tier Code</label>
+        <input asp-for="ReqbyTierCode" class="form-control" />
+        <span asp-validation-for="ReqbyTierCode" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="UpdateUserName">Update User Name</label>
+        <input asp-for="UpdateUserName" class="form-control" />
+        <span asp-validation-for="UpdateUserName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="UpdateEntryDate">Update Entry Date</label>
+        <input asp-for="UpdateEntryDate" type="datetime-local" class="form-control" />
+        <span asp-validation-for="UpdateEntryDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="EntryWSIP">Entry WSIP</label>
+        <input asp-for="EntryWSIP" class="form-control" />
+        <span asp-validation-for="EntryWSIP" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="UpdateWSIP">Update WSIP</label>
+        <input asp-for="UpdateWSIP" class="form-control" />
+        <span asp-validation-for="UpdateWSIP" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Locked">Locked</label>
+        <input type="checkbox" asp-for="Locked" />
+        <span asp-validation-for="Locked" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Active">Active</label>
+        <input type="checkbox" asp-for="Active" />
+        <span asp-validation-for="Active" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Archive">Archive</label>
+        <input type="checkbox" asp-for="Archive" />
+        <span asp-validation-for="Archive" class="text-danger"></span>
+    </div>
+
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+</form>

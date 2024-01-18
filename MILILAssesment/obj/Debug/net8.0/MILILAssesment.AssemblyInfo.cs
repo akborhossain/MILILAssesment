@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MILILAssesment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+909667bc9f085ec4668ca77e5ecba71ceff3d6d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("MILILAssesment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MILILAssesment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
