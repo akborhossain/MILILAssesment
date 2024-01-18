@@ -1,0 +1,101 @@
+﻿@model MILILAssesment.Models.Entities.PRBookInfo
+
+@{
+    ViewData["Title"] = "PR Book Information";
+}
+
+@if(Model is null)
+{
+    <p>No PRBookInfo found</p>
+}
+else
+{
+<h2>PR Book Information</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Property</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>ID</td>
+            <td>@Model.Id</td>
+        </tr>
+        <tr>
+            <td>Request No</td>
+            <td>@Model.ReqNo</td>
+        </tr>
+        <tr>
+            <td>Request Date</td>
+            <td>@Model.ReqDate?.ToString("dd/MM/yyyy")</td>
+        </tr>
+        <tr>
+            <td>Req By</td>
+            <td>@Model.ReqBy</td>
+        </tr>
+        <tr>
+            <td>Req Qty</td>
+            <td>@Model.ReqQty</td>
+        </tr>
+        <tr>
+            <td>Issued Qty</td>
+            <td>@Model.IssuedQty</td>
+        </tr>
+        <tr>
+            <td>Office Code</td>
+            <td>@Model.OfficeCode</td>
+        </tr>
+        <tr>
+            <td>Issued Date</td>
+            <td>@Model.IssuedDate?.ToString("dd/MM/yyyy")</td>
+        </tr>
+        <tr>
+            <td>Status</td>
+            <td>@Model.Status</td>
+        </tr>
+        <tr>
+            <td>User Name</td>
+            <td>@Model.UserName</td>
+        </tr>
+        <tr>
+            <td>Entry Date</td>
+            <td>@Model.EntryDate?.ToString("dd/MM/yyyy")</td>
+        </tr>
+        <tr>
+            <td>Req By Tier Code</td>
+            <td>@Model.ReqbyTierCode</td>
+        </tr>
+        <tr>
+            <td>Update User Name</td>
+            <td>@Model.UpdateUserName</td>
+        </tr>
+        <tr>
+            <td>Update Entry Date</td>
+            <td>@Model.UpdateEntryDate?.ToString("dd/MM/yyyy")</td>
+        </tr>
+        <tr>
+            <td>Entry WSIP</td>
+            <td>@Model.EntryWSIP</td>
+        </tr>
+        <tr>
+            <td>Update WSIP</td>
+            <td>@Model.UpdateWSIP</td>
+        </tr>
+        <tr>
+            <td>Locked</td>
+            <td>@Model.Locked</td>
+        </tr>
+        <tr>
+            <td>Active</td>
+            <td>@Model.Active</td>
+        </tr>
+        <tr>
+            <td>Archive</td>
+            <td>@Model.Archive</td>
+        </tr>
+    </tbody>
+</table>
+}

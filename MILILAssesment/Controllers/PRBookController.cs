@@ -116,6 +116,17 @@ namespace MILILAssesment.Controllers
             }
             return RedirectToAction("Index");
         }
+        public async Task<IActionResult> Search(string RegNo)
+        {
+            return View("Index", await dbContext.tblPRBookInfo.Where(x => x.ReqNo.Contains(RegNo)).ToListAsync());
+        }
+
+        public async Task<IActionResult> Detail(int id)
+        {
+            var prBook = await dbContext.tblPRBookInfo.FindAsync(id);
+
+            return View(prBook);
+        }
 
     }
 }
