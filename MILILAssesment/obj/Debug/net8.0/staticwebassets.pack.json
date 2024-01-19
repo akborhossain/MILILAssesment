@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\MILILAssesment.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\smakb\\source\\repos\\MILILAssesment\\MILILAssesment\\wwwroot\\css\\print-style.css .css",
+      "PackagePath": "staticwebassets\\css\\print-style.css .css"
+    },
+    {
       "Id": "C:\\Users\\smakb\\source\\repos\\MILILAssesment\\MILILAssesment\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

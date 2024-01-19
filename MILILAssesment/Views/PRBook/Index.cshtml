@@ -1,9 +1,10 @@
 ﻿@model List<MILILAssesment.Models.Entities.PRBookInfo>
-<button class="next-btn next-btn-normal next-btn-medium trigger-button" type="button"> Print </button>
+@if(Model != null && Model.Any())
+{
+<div class="print-content" style="min-height:450px">
 <table class="table table-striped">
     <thead>
         <tr>
-            <th style="width: 48px;"> </th>
             <th>Reg. No.</th>
             <th>Reg. Date</th>
             <th>Reg. By</th>
@@ -16,7 +17,6 @@
         @foreach(var item in Model)
         {
             <tr>
-                <td><input type="checkbox" aria-checked="false"> </td>
                 <td><a  asp-controller="PRBook" asp-action="Detail" asp-route-id="@item.Id"> @item.ReqNo</a> </td>
                 <td>@item.ReqDate</td>
                 <td>@item.ReqBy</td>
@@ -32,3 +32,24 @@
 
 
 </table>
+</div>
+   
+
+    <button class="btn btn-primary" onclick="printTable()">Print</button>
+}
+else
+{
+    <p>There is no PRBook</p>
+}
+    <script>
+        function printTable() {
+            var printContent = document.querySelector('.print-content');
+            var originalBodyContent = document.body.innerHTML;
+
+            document.body.innerHTML = printContent.outerHTML;
+
+            window.print();
+
+            document.body.innerHTML = originalBodyContent;
+        }
+    </script>

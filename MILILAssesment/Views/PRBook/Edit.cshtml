@@ -13,7 +13,6 @@ else{
 <form  method="POST">
 
     <div class="form-group">
-        <label asp-for="Id">Id</label>                    
         <input asp-for="Id" class="form-control" hidden />
         <span asp-validation-for="Id" class="text-danger"></span>
     </div>
@@ -128,9 +127,7 @@ else{
 
     <div class="form-group">
         <button type="submit" class="btn btn-primary">Update</button>
-
-        <button type="submit" class="btn btn-danger" asp-controller="PRBook" asp-action="Delete" asp-route-id="@Model.Id">Delete</button>
-
     </div>
 </form>
+
 }

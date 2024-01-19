@@ -1,0 +1,21 @@
+﻿/* wwwroot/css/print-style.css */
+
+body {
+    display: none; /* Hide the body content by default */
+}
+
+.table-container {
+    display: block; /* Display the table container during printing */
+}
+
+@media print {
+    body {
+        display: block; /* Display the body content during printing */
+    }
+
+    .table-container {
+        display: block; /* Display the table container during printing */
+    }
+
+    /* Add any other styles to customize the printed output */
+}

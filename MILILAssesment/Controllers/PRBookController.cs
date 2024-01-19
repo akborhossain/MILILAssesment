@@ -98,10 +98,11 @@ namespace MILILAssesment.Controllers
                 pRBook.Locked = pRBookView.Locked;
                 pRBook.Active = pRBookView.Active;
                 pRBook.Archive = pRBookView.Archive;
-                await dbContext.SaveChangesAsync(); 
+                await dbContext.SaveChangesAsync();
+                return RedirectToAction("Index");
 
             }
-            return RedirectToAction("Index");
+            return View(pRBook);
 
         }
         public async Task<IActionResult> Delete(int id)

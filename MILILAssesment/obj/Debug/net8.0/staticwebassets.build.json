@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "B66nVSTJyYqo0vXqLZXF1Nf+JZwU++zxyLLEv0rVBkU=",
+  "Hash": "G178fujosiQoxhLNqjYqgpTw8DVl84NJmEal6NoaGIs=",
   "Source": "MILILAssesment",
   "BasePath": "_content/MILILAssesment",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\smakb\\source\\repos\\MILILAssesment\\MILILAssesment\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MILILAssesment.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\smakb\\source\\repos\\MILILAssesment\\MILILAssesment\\wwwroot\\css\\print-style.css .css",
+      "SourceId": "MILILAssesment",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\smakb\\source\\repos\\MILILAssesment\\MILILAssesment\\wwwroot\\",
+      "BasePath": "_content/MILILAssesment",
+      "RelativePath": "css/print-style.css .css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\print-style.css .css"
     },
     {
       "Identity": "C:\\Users\\smakb\\source\\repos\\MILILAssesment\\MILILAssesment\\wwwroot\\css\\site.css",

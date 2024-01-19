@@ -135,3 +135,11 @@ C:\Users\smakb\source\repos\MILILAssesment\MILILAssesment\bin\Debug\net8.0\runti
 C:\Users\smakb\source\repos\MILILAssesment\MILILAssesment\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\smakb\source\repos\MILILAssesment\MILILAssesment\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\smakb\source\repos\MILILAssesment\MILILAssesment\obj\Debug\net8.0\MILILAssesment.csproj.CopyComplete
+C:\Users\smakb\source\repos\MILILAssesment\MILILAssesment\bin\Debug\net8.0\EntityFramework.SqlServer.dll
+C:\Users\smakb\source\repos\MILILAssesment\MILILAssesment\bin\Debug\net8.0\EntityFramework.dll
+C:\Users\smakb\source\repos\MILILAssesment\MILILAssesment\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\smakb\source\repos\MILILAssesment\MILILAssesment\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\smakb\source\repos\MILILAssesment\MILILAssesment\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\smakb\source\repos\MILILAssesment\MILILAssesment\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\smakb\source\repos\MILILAssesment\MILILAssesment\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\smakb\source\repos\MILILAssesment\MILILAssesment\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
